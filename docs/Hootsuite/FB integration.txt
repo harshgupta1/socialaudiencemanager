@@ -1,0 +1,16 @@
+Step-1
+https://www.facebook.com/dialog/oauth?display=popup&client_id=183319479511&redirect_uri=http%3A%2F%2Fhootsuite.com%2Fnetwork%2Fpopauth-finished&scope=user_about_me,friends_about_me,user_activities,friends_activities,user_birthday,friends_birthday,user_checkins,friends_checkins,user_education_history,friends_education_history,user_events,friends_events,user_groups,friends_groups,user_hometown,friends_hometown,user_interests,friends_interests,user_likes,friends_likes,user_location,friends_location,user_notes,friends_notes,user_photos,friends_photos,user_relationships,friends_relationships,user_relationship_details,friends_relationship_details,user_religion_politics,friends_religion_politics,user_status,friends_status,user_videos,friends_videos,user_website,friends_website,email,manage_pages,publish_stream,read_stream,read_page_mailboxes,read_insights,ads_management&state=facebookgraph
+
+HootSuite would like to access your public profile, friend list, email address, News Feed, relationships, relationship interests, birthday, notes, status updates, checkins, education history, events, groups, hometown, interests, current city, photos, religious and political views, videos, website, personal description, likes and your friends' relationships, relationship interests, birthdays, notes, status updates, checkins, education histories, events, groups, hometowns, interests, current cities, photos, religious and political views, videos, websites, personal descriptions and likes.
+
+
+Step-2
+https://www.facebook.com/dialog/oauth/read
+
+
+HootSuite would like to post to your friends on your behalf.
+
+Step-3
+https://www.facebook.com/dialog/oauth/write
+
+HootSuite would like to manage your Pages, manage your ads, access your Page and App insights and access mailboxes of your pages.

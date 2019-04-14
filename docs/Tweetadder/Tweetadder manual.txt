@@ -1,0 +1,457 @@
+TweetAdder 3.0 Manual
+
+TweetAdder 3
+
+Released 8/15/2010
+
+Understanding the Toolbar Options/Windows:
+
+——————————————–
+
+Overview Screen
+
+———————–
+
+The overview screen allows you to monitor the status and activities of all of your account from one convenient table.
+
+You can turn each account on or off by clicking on the account, and selecting the on/off button.  This is especially useful if you wish to pause updates to an account, or if you are managing an account from a different computer.
+
+The user icons on the far left show which accounts are logged in, and which ones are logged off or turned off.
+
+The on/off images show you which automation features are turned on or off for each account.  These settings can be turned on/off on the respective pages when you open the user’s settings.
+
+To open a user to manage, you can either double click on the row, or select a row and click the “Open User” button.
+
+If upgrading from a previous version, the software pulls down all profiles that were set up previously under your registration license.  If you wish to remove any profiles from this import, you can select the profile and hit the “Turn Account Off” button.  This only turns this profile off for this particular computer.
+
+Open User Screen
+
+————————-
+
+Once you have highlighted a particular Twitter User from the Overview screen, you will then hit the Open User button.
+
+On this screen you will complete all the settings your wish TweetAdder to perform on that particular  profile.
+
+See Creating Settings on the Twitter Profile
+
+Manage Users
+
+———————-
+
+This is the window you will use to Add your Twitter Profile(s), Update an Existing Username, Update an existing password you may have changed, or remove a profile.
+
+To Add a Twitter Profile:
+
+At the bottom of the window, enter in your twitter username and twitter password, then select the “Add User” button.  Your twitter password is never shared with our servers and remain locally on your system’s tweetadder database.
+
+Registration
+
+——————–
+
+This window allows you to enter in your registration code.  If you are using a demo version you can select the “Purchase Tweet Adder License”.  You you are an existing customer and want to increase the number of twitter profile users you have, then select the “Upgrade Tweet Adder License” button.
+
+Once you have received your registration code via your email address, copy and paste the registration code into the Registration Number field to activate your software.
+
+Settings
+
+—————-
+
+General Settings = You can set the time delay that the software logs into each of your twitter profiles when using for multiple accounts.
+
+Minimize to System Tray (Windows Users) = check the block to keep the software running, but out of site from your desktop display
+
+Activity Log
+
+—————-
+
+The activity log screen shows you a log of all of the tasks Tweet Adder has done since it was first opened.  Follows, unfollows, automated tweets, etc will all show up in the activity log.
+
+When something isn’t working quite like you think it should (tweets not sending, etc) the activity log will generally have a log entry to explain why. (limit reached, etc)
+
+Creating Settings on the Twitter Profile
+
+——————————————————
+
+On the left toolbar you will see separate sections and a black triangle beside the description, you can expand the option setting by clicking the black triangle.
+
+Open User > 1st Block (Profile Settings Overview, Automation, and Current Details)
+
+The black triangle beside the profile username in the first block will bring up  Settings, Black/White List, Followers, and Following
+
+Settings
+
+———-
+
+Account Settings
+
+———–
+
+Custom User Agent – This changes what web browser and operating system Tweet Adder is emulating. (The default value should be fine for most users)
+
+Only run automated tasks between… – This feature lets you keep Tweet Adder running all of the time, and set it to only run automated tasks during certain hours.
+
+Update Following/Followers list – this is the interval range in which your following and followers lists are retrieved from twitter.  You can also do this manually on the “Following” or “Followers” pages. (The default value should be fine for most users)
+
+Proxies are recommended only for advanced users.  An internet proxy may be needed with certain types of internet connections.  Proxies can also be used to add anonymity and make it appear that you are accessing Twitter from a different location.  Using proxies almost always will make Tweet Adder run slower, and be less reliable.  (Most users should not use proxies)
+
+Black/White List
+
+————-
+
+Black List
+
+Add users to the black list to prevent Tweet Adder from ever Following that person.
+
+White List
+
+Add users to the white list to prevent Tweet Adder from ever UnFollowing that person
+
+Followers
+
+—————-
+
+This screen displays a list of all of the Twitter users who are following you.
+
+Users who you followed using Tweet Adder will have the username available, as well as the numeric id.
+
+The Follow Date is the date that Tweet Adder first saw the user was following you.  Therefore, the first time you run Tweet Adder, it will appear that all of your followers followed you that day.  Also, If you haven’t run Tweet Adder for several days, all of the new followers will appear to have followed you on the day you run the software.
+
+Source – The source (when available) shows you how the person became your follower.  This allows you to see which searches on Tweet Adder are leading to people following you back.  This feature works best after you have been using the software for awhile.
+
+Following
+
+—————
+
+This screen displays a list of all of the Twitter users who you are following
+
+Users who you followed using Tweet Adder will have the username available, as well as the numeric id.
+
+The Follow Date is the date that you followed the user.  However, if the user was not followed using Tweet Adder, the date will reflect the first time Tweet Adder saw that you were following the user. Therefore, the first time you run Tweet Adder, it will appear that you followed everyone on that day.
+
+Source – The source (when the user was followed through Tweet Adder) shows you why the user was followed.  For example, you can see what search terms you used to find them, or if they followed you first and you followed them back.
+
+Open User > 2nd Setting Block (Search Users to Follow)
+
+——————————————————————————————–
+
+To Follow List
+
+————-
+
+This screen displays all of the users who you plan to follow.
+
+The “Search Source” displays how you found the ids.
+
+The filter option will allow you to remove groups of ids based on the search keyword.
+
+You can also remove individual or groups of users by checking them and clicking “Remove Checked”
+
+The import/export buttons allow you to save the users in this list for later use, or to use on a different account.
+
+Tweet Search
+
+—————–
+
+From this screen you can perform a tweet search now, or you can setup a search to be run later by the “Automated Tweet Search” feature.
+
+Note: Automated Tweet Search only kicks in once you have no more users to follow in the TO FOLLOW LIST.
+
+If you wish to turn Automated Searches On or Off, you can do so by using the “Automation On/Off” button at the top left of the screen.
+
+Search for users by keywords used in their Tweets – This feature will find users who have posted tweets that contain the keyword that you search for.  This feature is great for finding users that share the same interests.
+
+Example Searches: (combine to form more complex queries)
+
+Containing a word:  twitter
+
+Containing multiple words:  twitter marketing
+
+Negation:  twitter -marketing
+
+Exact phrase:  “twitter marketing”
+
+OR:  twitter OR tweets
+
+Containing a hash tag:  #twitter
+
+Not From a user:  -from:username
+
+To a user:  to:username
+
+Mentioning a user:  @username
+
+Originating from an application: source:tweetie
+
+Search Users by Location- This feature will find users in a specific geographic location.  Type the location you wish to search for, and then select the mile radius to search.You can type the location in any of the following formats:
+
+city, state
+
+city, state, zip
+
+zip
+
+street, city, state
+
+city, country
+
+city, state, country
+
+Recency- Only find tweets that were posted since the selected number of days.
+
+Once you have completed a search a new window will appear with the results of which you can select who you wish to follow:
+
+Profile Data (Bio) Search
+
+———-
+
+This feature will find users who have the specified keywords in their Bio.  This feature is great for finding users that share the same interests.
+
+Example Searches: (combine to form more complex queries)
+
+Containing a word:  twitter
+
+Containing at least one of the words:  twitter marketing
+
+Containing both words:  +twitter +marketing
+
+Containing one word but not another:  +twitter -marketing
+
+Exact phrase:  “twitter marketing”
+
+Search for users by the location the user entered in their profile
+
+This feature will find users who live in a specific location.  Users can enter anything they want in this area, so entries such as NYC or even Uranus are acceptable.
+
+Example Searches:
+
+New York
+
+West Palm Beach
+
+Earth
+
+You can also specify a range of followers/following/updates for them to have.  To skip this simply leave it blank.
+
+*Please note that the database that is being searched is a cached version of what is found on Twitter.com.  Some data may be out of date, and some users may have changed their profile since the data was recorded.
+
+Location Search
+
+———-
+
+This feature will find users in a specific geographic location.  Type the location you wish to search for, and then select the mile radius to search.You can type the location in any of the following formats:
+
+city, state
+
+city, state, zip
+
+zip
+
+street, city, state
+
+city, country
+
+city, state, country
+
+Recency – Only find tweets that were posted since the selected number of days.
+
+Find Followers of a User
+
+————–
+
+This feature will find users who are followers of another user.  This feature is useful when you want to send follows to all of the users who are following someone else.
+
+Find users followed by a User
+
+————-
+
+This feature will find users who are being followed by another user.  This feature is useful when you want to send follows to all of the users who someone else is following.
+
+Find Members of a Twitter List
+
+————–
+
+This feature will find users who are members of a user’s list.  You need to enter the username, and the name of the list.
+
+Search Results
+
+————————-
+
+From this screen you can decide which users from your search results to add to your “Users to Follow” list.
+
+If you simply want to add all of the results click “Save All”.  Or you can check off specific ones, and click “Save Checked”
+
+You can also use the filter button to remove users who have a default profile image, or users who have a URL in their last Tweet.
+
+You can also use the Export feature, if you wish to save these results for later.  Please note, that only the usernames are exported, not the other data.
+
+Open User > Block 3 (Follow and Unfollow Settings)
+
+——————————————————
+
+Follow:
+
+———–
+
+This feature will send follows to users whose IDs you have collected on the “To Follow List”.  Following users, along with providing useful Twitter posts, is a great way to increase the number of users who are following you.
+
+You can “Send Follows Now” and you can turn On/Off Automated Follows from this screen.  Resist the urge to be a kid on Christmas morning and blasting out as many follows as fast as possible.  Slow and steady wins the race.
+
+While the instant gratification of sending follows now is nice, we highly recommend that you use the automation settings.  It is a much more natural way of following users, and over time is generally much easier and successful.
+
+# to send – This is the number of follows that will be sent now if you press the ‘Start’ button
+
+Maximum Follows to send per day – This will limit the number of follows you send per day (reset at midnight)
+
+Time Delay Between Follows – This is the delay in seconds between follows that are sent.
+
+Stop adding follows ratio – This feature is good to use to keep your ratios in check.  It is not good to have a lot more followers than people following you.
+
+Follow Back
+
+————
+
+This feature will send follows to users who are currently following you.  Following users is a good way to show them you appreciate them following you, and help build a relationship.  On a side note, following back a lot of users can reduce your free following space for twitter to allow you to follow new people due to their ratio limitations.
+
+You can “Follow Back Now” and you can turn On/Off Automated Follow Back from this screen.
+
+While the instant gratification of following users back now is nice, we highly recommend that you use the automation settings.  It is a much more natural way of following users, and over time is generally much easier and successful.
+
+# to send – This is the number of follows that will be sent now if you press the ‘Start’ button
+
+Maximum Follows to send per day – This will limit the number of follows you send per day (reset at midnight)
+
+Time Delay Between Follows – This is the delay in seconds between follows that are sent.
+
+Stop adding follows ratio – This feature is good to use to keep your ratios in check.  It is not good to have a lot more followers than people following you
+
+UnFollow Users
+
+——————-
+
+This feature will stop following users which you have previously followed.
+
+IMPORTANT
+
+Make sure you have “Who to Unfollow” set correctly. The options are:
+
+*UnFollow nonreciprocal follows that were followed using Tweet Adder
+
+*UnFollow any nonreciprocal follows
+
+*UnFollow All follows (except whitelist – found in Block 1 of Settings)
+
+We recommend the first option, “UnFollow nonreciprocal follows that were followed using Tweet Adder”
+
+We also recommend that you check “Wait x days for a user to follow you back before UnFollowing Them”
+
+2-3 is a good number of days to wait.
+
+You can “Send UnFollows Now” and you can turn On/Off Automated UnFollow from this screen.
+
+While the instant gratification of unfollowing users  now is nice, we highly recommend that you use the automation settings.  It is a much more natural way of unfollowing users, and over time is generally much easier and successful.
+
+# to UnFollow – This is the number of unfollows that will be sent now if you press the ‘Start’ button
+
+Maximum UnFollows to send per day – This will limit the number of unfollows you send per day (reset at midnight)
+
+Time Delay Between UnFollows – This is the delay in seconds between unfollows that are sent.
+
+Stop UnFollowing ratio – This feature is good to use to keep your ratios in check.  It is not good to have a lot more followers than people following you
+
+Open User > Settings Block 4 (Tweets)
+
+Tweets
+
+———–
+
+This feature will post your Twitter Updates for you, spread throughout the day!  Do not post duplicate tweets!
+
+You must turn “Automation On” for this feature to work.
+
+URL Shortener – Shorten long URLs to post in your Tweets
+
+MP3 – Bands and artists can upload their MP3s to mp3twit.com and share on Twitter
+
+Symbols – Access to special UTF8 characters like stars, arrows, and smileys
+
+Link History – Easy access to previously shortened URLs and MP3s
+
+Post Tweets every x to x – This determines the random delay (in minutes) between each Twitter Update
+
+Maximum # of Tweets to Post per day – This limits the total number of automated Twitter Posts that are posted each day (resets at midnight)
+
+Add – Adds this tweet for posting later, used in conjunction with automated tweets
+
+Tweet Now – posts this tweet to the profile now
+
+Unique Tweet Generator
+
+———————————–
+
+This feature is good if you want to post multiple tweets that say roughly the same thing.
+
+This works by replacing a few words in your Tweet with multiple alternate words within brackets [ ] that are separate with commas.
+
+Example: The [quick,slow,fast] [brown,green,blue,red]
+
+fox [jumped,walked,hopped] [over,past,under] the
+
+[lazy,tired,boring] dog.
+
+This is an extreme example that would yield many many unique tweets.
+
+Generated Tweets are saved to your “Tweets” list.
+
+RSS Feed Tweets
+
+——————–
+
+This feature allows you to automatically post Tweets of RSS Feeds throughout the day.  This is a very powerful tool for adding quality content to your Twitter account.  More on RSS feeds at
+
+You must turn “Automation On” for this feature to work.
+
+RSS URL – URL of the RSS resource
+
+There is an option to include the title or the description.  We recommend one or the other as there is usually not room for both – extra text is truncated.
+
+Links in the RSS feed are automatically shortened using Tiny.ly for your convenience.
+
+Tweet Prefix – This allows you to put text before the text in the RSS.  An example would be “Breaking News >>”
+
+Tweet Suffix – This allows you to put text at the end of a tweet.  This mainly used for hash tags.
+
+@Replies
+
+——————
+
+This feature will post a random Tweet @Someone who posts a Twitter update that is directed @You
+
+Open User > Settings Block 5 ( Messages )
+
+Thank You Direct Message
+
+————————————-
+
+This feature will send a random message from the message list to users who follow you.
+
+This feature only works through automation, so you must turn “Automation On” for it to work.
+
+Send Direct Messages
+
+——————————–
+
+This feature will send a random message from the message list to users who are following you.  Only one message will be sent to each follower, until you clear the sent messages log
+
+# to Send – The number of messages to send.  Twitter limits you to 250 per day.
+
+Time Delay Between Messages – This is the delay in seconds between Messages that are sent.
+
+Open User > Settings Box 6 ( Trends )
+
+—————————————————————————————————
+
+Search Trends
+
+——————
+
+This window will show you the current trends happening on twitter including Current Trends, Daily Trends, and Weekly Trends

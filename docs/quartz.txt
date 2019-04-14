@@ -1,0 +1,28 @@
+online book on quartz:
+http://my.safaribooksonline.com/book/operating-systems-and-server-administration/0131886703
+
+Quartz Requires the Following Tables for All JDBC-persistent JobStores
+QRTZ_CALENDARS
+	Stores Quartz calendar information as blobs
+QRTZ_CRON_TRIGGERS
+	Stores cron triggers, including cron expression and time zone information
+QRTZ_FIRED_TRIGGERS
+	Stores status information relating to triggers that have fired and the relevant execution information about the related job.
+QRTZ_PAUSED_TRIGGER_GRPS
+	Stores the trigger groups that have been paused
+QRTZ_SCHEDULER_STATE
+	Stores a few pieces of information about the state of the Scheduler and other Scheduler instances (if used within a cluster)
+QRTZ_LOCKS
+	Stores pessimistic lock information for the application (if pessimistic locking is used)
+QRTZ_JOB_DETAILS
+	Stores detailed information for every configured Job
+QRTZ_JOB_LISTENERS
+	Stores information about configured JobListeners
+QRTZ_SIMPLE_TRIGGERS
+	Stores simple triggers, including repeat count, internal, and number of times triggered
+QRTZ_BLOB_TRIGGERS
+	Triggers stores as blobs (this is used when Quartz users create their own custom trigger types—with JDBC, JobStore does not have specific knowledge about how to store instances)
+QRTZ_TRIGGER_LISTENERS
+	Stores information about configured TriggerListeners
+QRTZ_TRIGGERS
+	Stores information about configured triggers
